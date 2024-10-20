@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Sports Trivia</title>
+
+		<!--FONTS-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Atma:wght@400;700&display=swap" rel="stylesheet">
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<h2 class="otherCategories">Other Categories:</h2>
+				<ul>
+					<a href="boardgames.html" class="pages"><li>Board Games</li></a>
+					<a href="film.html" class="pages"><li>Film</li></a>
+					<a href="music.html" class="pages"><li>Music</li></a>
+					<a href="videogames.html" class="pages"><li>Video Games</li></a>
+					<a href="index.html" class="pages"><li>Back to Home Page</li></a>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="mainTop">
+				<h1>Sports Trivia!</h1>
+				<button id="button">Get Question</button>	
+				<p id="question"></p>
+			</div>
+			<div class="mainMiddle">
+				<ul id="questionChoices">
+	
+				</ul>
+				<h2 id="isCorrect"></h2>
+			</div>
+
+			<h6 id="convertedCorrectAnswer"></h6>			
+
+		</main>
+		<script type="text/javascript" src="js/sports.js"></script>
+	</body>
+</html>
