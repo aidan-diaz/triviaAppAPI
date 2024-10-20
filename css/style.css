@@ -32,6 +32,12 @@ main {
   height: 900px;
 }
 
+header,
+nav,
+header ul {
+  width: 100%;
+}
+
 .descriptionContainer {
   width: 75%;
   height: 700px;
