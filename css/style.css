@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+  background-color: #C63C51;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -204,7 +209,7 @@ a {
 
 @media screen and (max-width: 520px) {
   main {
-    height: 100vh;
+    height: 1200px;
   } 
   .mainTop {
     height: 500px;
