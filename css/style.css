@@ -204,10 +204,10 @@ a {
 
 @media screen and (max-width: 520px) {
   main {
-    height: 1200px;
+    height: 100vh;
   } 
   .mainTop {
-    height: 450px;
+    height: 500px;
   }
   .choices {
     width: 280px;
