@@ -207,6 +207,10 @@ a {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+#questionChoices {
+  font-size: 24px;
+}
+
 @media screen and (max-width: 520px) {
   main {
     height: 1200px;
@@ -215,12 +219,18 @@ a {
     height: 500px;
   }
   .choices {
-    width: 280px;
+    width: 350px;
   }
 }
 
 @media screen and (max-width: 460px) {
   .pages {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .choices {
+    width: 300px;
   }
 }
