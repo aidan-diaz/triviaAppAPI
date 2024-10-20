@@ -10,7 +10,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  /* background-color: #C63C51; */
+  background-color: #C63C51;
 }
 
 /******************************************
@@ -30,7 +30,7 @@ li {
 }
 
 main {
-  height: 100vh;
+  height: 900px;
 }
 
 header,
@@ -216,9 +216,9 @@ a {
 }
 
 @media screen and (max-width: 520px) {
-  /* main {
+  main {
     height: 1200px;
-  }  */
+  } 
   .mainTop {
     height: 500px;
   }
