@@ -9,8 +9,12 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: #C63C51;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 /******************************************
@@ -35,7 +39,7 @@ main {
 
 header,
 nav {
-  width: 100vw;
+  height: 100%;
 }
 
 header ul {
