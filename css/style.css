@@ -38,6 +38,10 @@ nav {
   width: 100vw;
 }
 
+header ul {
+  width: 92.5%;
+}
+
 .descriptionContainer {
   width: 75%;
   height: 700px;
@@ -90,10 +94,6 @@ header ul,
 li {
   display: flex;
   flex-direction: row;
-}
-
-header ul {
-  width: 92.5%;
 }
 
 .pages {
