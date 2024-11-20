@@ -75,7 +75,6 @@ function makeOptionsList(data) {
     return options.sort()
 }
 
-//THIS ONE WORKS - TESTING A DIFFERENT ONE FARTHER DOWN
 
 function displayOptions(options) {
     //for each option, append it to the ul of options
